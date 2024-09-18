@@ -48,9 +48,9 @@ function Footer() {
                             <p>Github</p>
                         </div>
                         <div>
-                            <form action="mailto:gauravkuriyal03@gmail.com" method="post">
+                            <a href="mailto:gauravkuriyal03@gmail.com">
                                 <Button text="Send Mail" back="black" border="2px solid white" color="white" fontSize="clamp(12px,2vw,20px)" padding="10px" />
-                            </form>
+                            </a>
                         </div>
                     </div>
                 </div>
