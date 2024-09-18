@@ -1,6 +1,5 @@
 header:has(+ .ProjectIntro){
     position: relative !important;
-    background : red;
 }
 #root:has(.ProjectIntro){
     background: var(--dark-background) !important;
