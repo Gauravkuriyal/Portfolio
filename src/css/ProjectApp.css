@@ -66,7 +66,7 @@ header:has(+ .ProjectIntro){
     text-align: center;
     font-size: var(--font-size);
     line-height: var(--line-height);
-    padding: 10%;
+    padding: 10% 5%;
     text-align: justify;
 }
 .ProjectList .Project .ProjectInfo a{
