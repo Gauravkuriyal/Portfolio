@@ -91,9 +91,9 @@ function Header() {
                 </ul>
             </div>
             <div className="headerPart3">
-                <form action="mailto:gauravkuriyal02@gmail.co" method="post">
+                <a href="mailto:gauravkuriyal02@gmail.com" >
                     <Button text="Contact" fontSize="15px"/>
-                </form>
+                </a>
             </div>
         </header>
         </>
