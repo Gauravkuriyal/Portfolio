@@ -10,14 +10,12 @@
 .InfoCards .cards{
     padding: 3%;
     border: 1px solid black;
-    font-size: clamp(20px,7vw,20px);
+    font-size:clamp(17px,3vw,30px);
     border-radius: 10px;
     color: white;
-    /* background-color: beige; */
     background: linear-gradient(90deg,green,teal);
-    /* background: linear-gradient(90deg,rgb(20,54,1),rgb(26,67,1),rgb(36,85,1),transparent); */
     width: 40%;
-    min-width: 340px;
+    min-width: 300px;
     position: relative;
     z-index: 2;
 }
@@ -29,8 +27,6 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
-    /* transform: translateX(-190%); */
-    /* animation: marquee 5s linear infinite; */
     animation-fill-mode: forwards;
     animation-direction: normal;
 }
@@ -47,9 +43,6 @@
     100%{
         transform:translateX(-380%);
     }
-    /* 100%{
-        transform: translateX(-190%);
-    } */
 }
 
 .HomeAbout{
@@ -122,22 +115,23 @@
     color: var(--light-color);
     position: absolute;
     padding: 3%;
-    font-size: 15px;
+    font-size: clamp(10px,2vw,15px);
     background: rgba(0, 0, 0, 0.689);
     bottom: 0;
     transform: translateY(100%);
     transition: all 0.5s;
-    line-height: 150%;
+    line-height: 180%;
     text-align: justify;
+    overflow: scroll;
 }
 .HomeProjects .projects .project p span{
     display: inline-block;
     color: var(--light-color);
-    font-size: 30px;
+    font-size: clamp(17px,3vw,30px);
     padding-bottom: 10px;
 }
 .HomeProjects .projects .project:hover p{
-    transform: translateY(-10%);
+    transform: translateY(0%);
 }
 .HomeProjects .projects .project img{
     width: 100%;
