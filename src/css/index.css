@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    /* font-weight: 600; */
+    /* font-family: sans-serif; */
+}
+:root{
+    --font-size: clamp(14px, 2vw,20px);
+    --line-height: clamp(25px, 3vw,36px);
+    --dark-background : #282c35;
+    --light-color : #ced4da;
+}
+#root{
+    overflow-x: hidden;
+    /* background-color: #faf9f9; */
+    transition: all 500ms;
+    /* line-height: 200%; */
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: white ;
+    border: 1px solid grey;
+    overflow: visible;
+}
+::-webkit-scrollbar-thumb{
+    background-color: teal;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: visible;
+    border-radius: 5px;
+}

@@ -1,0 +1,62 @@
+footer{
+    /* margin-top: 10px; */
+    /* background-color: #282c35; */
+    display: flex;
+    flex-direction: column;
+}
+footer .FooterContent{
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer .FooterContent .footerText{
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: sans-serif;
+    height: 10vw;
+}
+footer .FooterContent .footerText span:nth-child(2){
+    align-self: center;
+}
+footer .FooterContent .footerText span:nth-child(3){
+    align-self: flex-end;
+}
+.footer-arrow{
+    stroke: var(--light-color) !important;
+    height: 20vw;
+}
+footer .FooterContent .connect{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 2vw;
+    justify-content: space-evenly;
+    
+}
+footer .FooterContent .connect>div{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+    color: var(--light-color);
+    font-size: clamp(12px,2vw,20px);
+}
+/* footer .FooterContent .connect>div img{
+    background-color: white;
+} */
+
+footer .NameBranding{
+    font-size: 13vw;
+    letter-spacing: 3vw;
+    color: transparent;
+    background: linear-gradient(black,grey,transparent,transparent);
+    background-clip: text;
+    font-weight: 900;
+    text-align: center;
+    font-family: sans-serif;
+}
