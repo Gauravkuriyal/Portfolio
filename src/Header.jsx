@@ -91,7 +91,7 @@ function Header() {
                 </ul>
             </div>
             <div className="headerPart3">
-                <a href="mailto:gauravkuriyal02@gmail.com" >
+                <a href="mailto:gauravkuriyal03@gmail.com" >
                     <Button text="Contact" fontSize="15px"/>
                 </a>
             </div>
