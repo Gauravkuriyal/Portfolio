@@ -39,7 +39,7 @@ function LandingPage() {
             <div className="background">
                 <SVGBackground />
             </div>
-            <div className="content">
+            <div className="content" >
                 <div>
                     <h1>
                         Hey, there 👋<br />

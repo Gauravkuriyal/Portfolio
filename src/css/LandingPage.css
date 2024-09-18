@@ -16,27 +16,6 @@
     color: rgba(0, 0, 0, 0.345);
     z-index: 1;
 }
-/* .LandingPage .background svg:nth-child(2) {
-    position: absolute;
-    display: inline-block;
-    height: 100vh;
-    top: 0;
-    right: 0;
-}
-.LandingPage .background svg:nth-child(3) {
-    position: absolute;
-    display: inline-block;
-    height: 100vh;
-    top: 50%;
-    left: 0;
-}
-.LandingPage .background svg:nth-child(4) {
-    position: absolute;
-    display: inline-block;
-    height: 100vh;
-    top: 50%;
-    right: 0;
-} */
 
 .LandingPage .content{
     height: 100vh;
@@ -50,6 +29,7 @@
 }
 .LandingPage .content button{
     transition: all 300ms;
+    margin-bottom: 20px;
 }
 .LandingPage .content button:hover{
     background-color: #17B169 !important ;
@@ -69,20 +49,14 @@
     z-index: 3;
 }
 .LandingPage .content h1{
-    font-size: clamp(40px,15vw,75px);
-    line-height: clamp(40px,15vw,110px);
+    font-size: clamp(30px,5vw,45px);
+    line-height: 150%;
 }
 .LandingPage .content h1 span{
     color:#17B169;
 }
 .LandingPage .content h1~p{
-    font-size: clamp(20px,7vw,22px);
-    /* background: initial;
-    background-clip: text; */
-    /* color: transparent;
-    filter: invert(1) grayscale(1); */
-    /* position: relative;
-    z-index: 4; */
+    font-size: clamp(17px,3vw,30px);
 }
 .LandingPage .content .imageContainer{
     display: flex;
