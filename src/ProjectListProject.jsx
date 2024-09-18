@@ -10,7 +10,7 @@ function Project(props) {
         gsap.to(videoRef.current,{
             scrollTrigger :{
                 trigger:videoRef.current,
-                start: 'top 0%',
+                start: 'top 10%'
                 onEnter : ()=>{
                     videoRef.current.play();
                 },
