@@ -50,4 +50,4 @@ Feel free to reach out if you have any questions or would like to collaborate:
 - LinkedIn: [Gaurav Kuriyal LinkedIn](https://www.linkedin.com/in/gaurav-kuriyal-ba166530a/)
 - GitHub: [Gaurav Kuriyal Github](https://github.com/Gauravkuriyal)
 
-## To view the website visit [Portfolio URL](/)
+## To view the website visit [Portfolio URL](https://gauravkuriyal.vercel.app/)
