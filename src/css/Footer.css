@@ -1,6 +1,6 @@
 footer{
     /* margin-top: 10px; */
-    /* background-color: #282c35; */
+    background-color: #282c35;
     display: flex;
     flex-direction: column;
 }
