@@ -10,7 +10,7 @@ function HomeProjects() {
             opacity : 0,
             scrollTrigger : {
                 trigger : ".HomeProjects",
-                start : "top 80%"
+                start : "top 90%"
             }
         })
         gsap.to("#root",{
@@ -24,7 +24,7 @@ function HomeProjects() {
             scrollTrigger : {
                 trigger : ".HomeProjects",
                 scrub : 2,
-                start : "top 70%",
+                start : "top 50%",
                 end : "bottom 50%",
                 onEnter : ()=>{
                     document.getElementById("root").style = "background : #282c35";
