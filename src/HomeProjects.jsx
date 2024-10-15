@@ -45,7 +45,7 @@ function HomeProjects() {
                 <h3>Works <a href="/projects">↗</a></h3>
                 <div className="projects">
                     <div className="project">
-                        <a href="www.ninetalespublishings.com"><img src="/images/Ninetales.png" alt="Ninetales" loading="lazy" /></a>
+                        <a href="https://www.ninetalespublishings.com"><img src="/images/Ninetales.png" alt="Ninetales" loading="lazy" /></a>
                         <p> <span>Ninetales</span><br />A  fully responsive website for publishing house called Ninetales Publishings using Node and Express as backend and Mongo Atlas as the database. Implemented user authentication and payment gateway, enhancing user experience and security</p>
                     </div>
                     <div className="project">
